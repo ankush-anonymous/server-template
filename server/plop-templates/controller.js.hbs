@@ -3,7 +3,7 @@ const { StatusCodes } = require("http-status-codes");
 const {{camelCase name}}Repository = require("../repository/{{camelCase name}}Repository");
 
 //sample
-{{!-- const postName = async (req, res) => {
+const postName = async (req, res) => {
 try {
 const { name } = req.body; // Destructure 'name' from req.body
 const result = await testRepository.postName(name); // Pass 'name' to the repository function
@@ -17,4 +17,4 @@ res
 
 module.exports = {
 postName,
-}; --}}
+};
